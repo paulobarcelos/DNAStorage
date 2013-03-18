@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Image2DNA.app"
-               BlueprintName = "Image2DNA"
-               ReferencedContainer = "container:Image2DNA.xcodeproj">
+               BuildableName = "DNA2File.app"
+               BlueprintName = "DNA2File"
+               ReferencedContainer = "container:DNA2File.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,9 +32,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Image2DNA.app"
-            BlueprintName = "Image2DNA"
-            ReferencedContainer = "container:Image2DNA.xcodeproj">
+            BuildableName = "DNA2File.app"
+            BlueprintName = "DNA2File"
+            ReferencedContainer = "container:DNA2File.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -50,9 +50,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Image2DNA.app"
-            BlueprintName = "Image2DNA"
-            ReferencedContainer = "container:Image2DNA.xcodeproj">
+            BuildableName = "DNA2File.app"
+            BlueprintName = "DNA2File"
+            ReferencedContainer = "container:DNA2File.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Image2DNA.app"
-            BlueprintName = "Image2DNA"
-            ReferencedContainer = "container:Image2DNA.xcodeproj">
+            BuildableName = "DNA2File.app"
+            BlueprintName = "DNA2File"
+            ReferencedContainer = "container:DNA2File.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

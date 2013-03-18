@@ -2,6 +2,9 @@
 
 #include "ofMain.h"
 
+#define PREFIX "CTACACGACGCTCTTCCGATCT"
+#define SUFIX "AGATCGGAAGAGCGGTTCAGCA"
+
 class testApp : public ofBaseApp{
 
 	public:
@@ -18,5 +21,9 @@ class testApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		
+	
+		void decode(string path);
+		string dnaToBits(string dna);
+		int getIndex(string bits);
+
 };
