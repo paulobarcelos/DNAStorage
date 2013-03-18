@@ -2,8 +2,12 @@
 
 #include "ofMain.h"
 
-#define PREFIX "CTACACGACGCTCTTCCGATCT"
-#define SUFIX "AGATCGGAAGAGCGGTTCAGCA"
+#define PREFIX_PRIMER "CTACACGACGCTCTTCCGATCT"
+#define SUFIX_PRIMER "AGATCGGAAGAGCGGTTCAGCA"
+//Length of segment in bytes (not including segment number)
+#define SEGMENT_LENGHT 12
+// 2^19 = 524,288 = max number of oligos -> 00010011
+#define MAX_OLIGOS 19
 
 class testApp : public ofBaseApp{
 
@@ -24,6 +28,6 @@ class testApp : public ofBaseApp{
 	
 		void decode(string path);
 		string dnaToBits(string dna);
-		int getIndex(string bits);
+		string getConsensus(vector<string> bundle);
 
 };

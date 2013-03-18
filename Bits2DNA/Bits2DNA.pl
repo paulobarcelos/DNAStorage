@@ -1,5 +1,5 @@
 # Original code extracted from paper http://www.sciencemag.org/content/suppl/2012/08/15/science.1226355.DC1/Church.SM.pdf
-
+	
 # \Perl\bin\perl Bits2DNA.pl GMC Jul-2011 & 27-May-2012
 # docstore.mik.ua/orelly/perl/cookbook/ch02_05.htm (bin) ch01_05.htm (char)
 # http://perldoc.perl.org/functions/pack.html rand.html
