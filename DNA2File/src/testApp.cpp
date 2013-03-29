@@ -4,6 +4,8 @@
 void testApp::setup(){
 	ofSetVerticalSync(true);
 	ofSetLogLevel(OF_LOG_VERBOSE);
+	ofSetWindowShape(350, 60);
+	ofSetWindowTitle("DNA2File");
 }
 
 //--------------------------------------------------------------
@@ -13,7 +15,8 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-
+	ofClear(0, 0, 0);
+	ofDrawBitmapString("Drag and drop DNA to convert to files", 20,20);
 }
 
 //--------------------------------------------------------------
